@@ -1,13 +1,13 @@
+import { BrowserRouter } from 'react-router-dom'
 import './App.css'
 import './index.css'
+import Routers from './components/common-components/Routers'
 
 function App() {
   return (
-    <div style={{ background: 'red', height: '100vh' }}>
-      <h1 className="text-6xl text-white font-bold">
-        Tailwind TEST
-      </h1>
-    </div>
+    <BrowserRouter>
+    <Routers/>
+    </BrowserRouter>
   )
 }
 
